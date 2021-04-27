@@ -126,14 +126,7 @@ function App() {
                   Don Bosco School , Alaknanda
                   <br/>
                   PCM CS
-                  </p>
-                  <p>
-                  JEE Mains - 98.2%
-                  <br/>
-                  CBSE Boards Class 12th - 96.4%
-                  <br/>
-                  CBSE Boards Class 10th - 95%
-                  </p>
+                 </p>
                 </div>
               </div>
 
