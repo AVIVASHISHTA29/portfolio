@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.app{
+  background-color: #1D1E20;
+  color:#fff;
+}
+
+.app__header{
+  height: auto;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid #51B983;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #1D1E20;
+}
+
+.app__left__card{
+  margin: 10px;
+}
+
+.app__wrapper{
+  top:10%;
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.social {
+font-size:200%;
+color: #51B983;
+padding: 10px;
+}
+
+.social:hover{
+  color:#61e4a0;
+}
+
+.app__left__card{
+  background-color: #1D1E20;
+  color: #fff;
+}
+
+.app__left{
+  margin-left: auto;
+  margin-right:auto;
+  max-width: 460px;
+}
+.app__right{
+  flex:0.9;
+  justify-content: space-evenly;
+  display: flex;
+}
+.education_qualifications{
+  border: 0.5px solid #282c34;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+
+}
+
+
+.written_stuff{
+  color:#808082;
+}
+
+
+@media screen and (max-width: 960px){
+  .app__wrapper{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 1318px){
+  .app__right__up{
+    flex-direction: column;
+  }
+
+}
+
+.app__right__up{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.app__down{
+  border: 0.5px solid #282c34 ;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.projects{
+  padding:20px;
+  max-width: 460px;
+}
