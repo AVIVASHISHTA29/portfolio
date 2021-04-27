@@ -21,9 +21,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {  faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import {  faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { BorderAll } from '@material-ui/icons';
 
 const useStyles = makeStyles({
   root: {
@@ -143,18 +142,18 @@ function App() {
                 <div className="written_stuff">
                   <ul>
                       <li><h4 style={{color:"#fff"}}>Coding</h4></li>
-                      <p style={{color:"#51B983"}}>
+                      <div style={{color:"#51B983"}}>
                       <ul> {coding_list} </ul>
-                      </p>
+                      </div>
                       <li> <h4 style={{color:"#fff"}}>MySQL and Databases</h4></li>
                       <li><h4 style={{color:"#fff"}}>Social Media And Digital Advertising</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Professional Writing</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Professional Writing</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Audio/Video Editing</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Languages</h4></li>
-                      <p style={{color:"#51B983"}}>
+                      <div style={{color:"#51B983"}}>
                       <ul> {lang_list} </ul>
-                      </p>
+                      </div>
                       <li><h4 style={{color:"#fff"}}>Interests</h4></li>
                       <ul style={{color:"#51B983"}}><li >Stocks And Investing</li></ul>
                   </ul>
