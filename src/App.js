@@ -141,7 +141,6 @@ function App() {
                       <li> <h4 style={{color:"#fff"}}>MySQL and Databases</h4></li>
                       <li><h4 style={{color:"#fff"}}>Social Media And Digital Advertising</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Professional Writing</h4> </li>
-                      <li><h4 style={{color:"#fff"}}>Professional Writing</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Audio/Video Editing</h4> </li>
                       <li><h4 style={{color:"#fff"}}>Languages</h4></li>
                       <div style={{color:"#51B983"}}>
@@ -382,7 +381,7 @@ function App() {
                         Lockdown Wars
                         </Typography>
                         <Typography variant="body1"  component="p" style={{color:"#808082"}}>
-                        ALockdown Wars is a podcast made specially for you to spend your lonely and depressed time! We come with a platform for all of your relateable Quarantine content! Share your lockdown stories with us! This is Lockdown wars! Where your stories are heard.
+                        Lockdown Wars is a podcast made specially for you to spend your lonely and depressed time! We come with a platform for all of your relateable Quarantine content! Share your lockdown stories with us! This is Lockdown wars! Where your stories are heard.
                         </Typography>
                       </CardContent>
 
