@@ -10,7 +10,8 @@ import lockdown from './img/lockdown_wars.jpg';
 import realis from './img/realis.png';
 import pp from './img/pp.webp';
 import easylife from './img/easylife.png';
-
+import instaclone from './img/instaclone.png';
+import simplysites from './img/simplysites.png';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -157,6 +158,69 @@ function App() {
         </div>
         <h1 style={{textAlign:"center"}}>My Projects</h1>
         <div className="app__down">
+        
+        <Card className="projects" style={{backgroundColor: "#1D1E20" , color:"#fff"}}>
+                    <CardActionArea>
+                      <CardMedia
+                        className={classes.media}
+                        image={simplysites}
+                        title="Simply Sites (Freelancing Service)"
+                      />
+                      
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2" color="white" >
+                          
+                        </Typography>
+                        <Typography gutterBottom variant="h5" component="h2" style={{color:"#51B983"}} >
+                          Simply Sites - Freelancing Service
+                        </Typography>
+                        <Typography variant="body1"  component="p" style={{color:"#808082"}}>
+                        A Freelancing service started by me and <a href="https://www.instagram.com/jayeshsadhwani99" style={{color:"#51B983"}}>Jayesh Sadhwani</a> where we provide 3 tiers of services to build responsive and clean webapps with full 
+                        fledged backend support.
+                        </Typography>
+                      </CardContent>
+
+                    </CardActionArea>
+
+                    <CardActions>
+                        <Button size="large" style={{color:"#51B983", border:"0.5px solid #51B983"}} href="https://www.simplysites.tech/">
+                          Link
+                        </Button>
+        
+                    </CardActions>
+        </Card>
+
+        <Card className="projects" style={{backgroundColor: "#1D1E20" , color:"#fff"}}>
+                    <CardActionArea>
+                      <CardMedia
+                        className={classes.media}
+                        image={instaclone}
+                        title="Insta-Clone"
+                      />
+                      
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2" color="white" >
+                          
+                        </Typography>
+                        <Typography gutterBottom variant="h5" component="h2" style={{color:"#51B983"}} >
+                          Instagram Clone
+                        </Typography>
+                        <Typography variant="body1"  component="p" style={{color:"#808082"}}>
+                        An Instagram Clone with email login, image uploading and commenting functionality made as  a React and a Firebase Project.
+                        </Typography>
+                      </CardContent>
+
+                    </CardActionArea>
+
+                    <CardActions>
+                        <Button size="large" style={{color:"#51B983", border:"0.5px solid #51B983"}} href="https://instagram-clone-37ffe.web.app/">
+                          Link
+                        </Button>
+        
+                    </CardActions>
+        </Card>
+
+        
         <Card className="projects" style={{backgroundColor: "#1D1E20" , color:"#fff"}}>
                     <CardActionArea>
                       <CardMedia
